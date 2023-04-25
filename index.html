@@ -1,15 +1,18 @@
 <html>
 <title>PRH 24/7 Music Streaming Platform [BETA] </title>
 <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-
-<iframe width="1920" height="720" src="https://www.youtube-nocookie.com/embed/7tNtU5XFwrU?autoplay=1" title="" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
-
+<div class="responsive-youtube">  
+<iframe width="" height="" src="https://www.youtube-nocookie.com/embed/7tNtU5XFwrU?autoplay=1" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+</div>
 
 <center>
 <h2> Click the play button to listen(<i>enable autoplay ONLY for this site in your browser for best experience</i>) and adjust quality if you like to and <br> enjoy continous stream of non repeating music 24/7 [currently BETA PHASE]!</h2>
@@ -25,6 +28,22 @@ font-family: 'Open Sans', sans-serif;
 font-size: 25px;
 font-weight: 25px;
 }
+
+.responsive-youtube{
+overflow:hidden;
+padding-bottom:38.25%;
+position:relative;
+height:0;
+}
+ 
+.responsive-youtube iframe{
+left:0; 
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
 </style>
 </body>
 </html>
